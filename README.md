@@ -4,7 +4,7 @@ Guía de Ejercicios de Algoritmos y Programación
 ## Variables, Operadores y Strings
 
 ---
-C2E1.
+**C2E1.**
 
 Te han contrado en el centro meteorologico de la **NASA**, para que hagas ciertos calculos tomando en cuenta lo siguiente:  
 
@@ -15,12 +15,12 @@ Te han contrado en el centro meteorologico de la **NASA**, para que hagas cierto
 `lluvia = 5e6`
 
 Debes hacer los siguientes calculos:
-a. Disminuir la variable de lluvia en un 10% para tener en cuenta el agua de lluvia que circula libremente sobre la superficie de un terreno ✍️
-b. Agregue la variable de lluvia a la variable volumen_reservorio ✍️
-c. Aumentar volumen_reservorio en un 5% para tener en cuenta las aguas pluviales que fluyen en el embalse en los días posteriores a la tormenta ✍️
-d. Disminuir volumen_reservorio en un 2% para tener en cuenta la evaporación ✍️
-e. Resta 2.5e5 metros cúbicos de volumen_reservorio para tener en cuenta el agua que se canaliza a regiones áridas. ✍️
-f. Imprime el nuevo valor de la variable volumen_reservorio, con el mensaje: `"El volumen del reservorio es {volimen_reservorio}m3"` ✍️
+- Disminuir la variable de lluvia en un 10% para tener en cuenta el agua de lluvia que circula libremente sobre la superficie de un terreno ✍️
+- Agregue la variable de lluvia a la variable volumen_reservorio ✍️
+- Aumentar volumen_reservorio en un 5% para tener en cuenta las aguas pluviales que fluyen en el embalse en los días posteriores a la tormenta ✍️
+- Disminuir volumen_reservorio en un 2% para tener en cuenta la evaporación ✍️
+- Resta 2.5e5 metros cúbicos de volumen_reservorio para tener en cuenta el agua que se canaliza a regiones áridas. ✍️
+- Imprime el nuevo valor de la variable volumen_reservorio, con el mensaje: `"El volumen del reservorio es {volimen_reservorio}m3"` ✍️
 
 **Nota**: 
 Aqui usaramos notación científica para definir grandes números. 
@@ -29,7 +29,7 @@ Aqui usaramos notación científica para definir grandes números.
 
 ---
 
-C2E2.
+**C2E2.**
 
 Se le proporcionarán datos de ejemplo para un usuario, la hora de su visita y el sitio al que accedió.
 
@@ -57,7 +57,7 @@ url = "https://petshop.com/pets/reptiles/pythons"
 
 ---
 
-C3E1
+**C3E1**
 Realizar un programa donde se reciba un número por teclado e imprima un mensaje diciendo si el número es par o impar.
 
 **Output:**
@@ -78,7 +78,7 @@ El número: **X** es par/impar y positivo/negativo
 
 --- 
 
-C3E2
+**C3E2**
 Una famosa cadena de cines en Venezuela te contrató para hacerles un programa de descuento en las entradas basado en la edad del cliente, para ello tendrás que recibir por teclado la edad y nombre del cliente y verificar los siguientes casos:
 
 - Si su edad es menor o igual a 4 años el precio de su entrada es gratis.
@@ -95,8 +95,7 @@ El cliente: {nombre} tiene: {edad} años y su entrada de cine cuesta: ${precio_e
 ```
 
 ---
-C3E3
-
+**C3E3**
 
 Te contrataron para realizar un programa donde calcule el premio de un juego.
 
@@ -132,7 +131,7 @@ Si no hay premio, el mensaje debe decir:
 ## Listas y Ciclos
 
 ---
-C4E1
+**C4E1**
 
 Use un for loop para tomar la lista que se llama 'oracion' e imprima cada elemento de la lista en su propia línea.
 
@@ -173,7 +172,7 @@ oracion = ["Estoy","imprimiendo","una","lista","linea","por","linea"]
 
 ---
 
-C3E2
+**C3E2**
 
 Escribe un for loop que imprima números enteros multiples de 5 menores e iguales a 30.
 
@@ -205,8 +204,7 @@ Escribe un for loop que imprima números enteros multiples de 5 menores e iguale
 
 ---
 
-C4E3
-
+**C4E3**
 
 a. Escribe un For Loop que itere sobre la lista 'estudiantes' y crea una lista 'usernames' para cada nombre. Para crear un username debes:
 
@@ -253,7 +251,7 @@ b. `Ahora en vez de crear una nueva lista, queremos actualizar la lista existent
 
 ---
 
-C4E4
+**C4E4**
 Debe escribir un While Loop que tome los números en una lista dada llamada: `num_list`
 
 Su código debe **sumar** los números impares en la lista, pero solo hasta los primeros 5 números impares.
