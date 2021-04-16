@@ -1,4 +1,4 @@
-# Programateca
+# Programateca: AyP 
 Guía de Ejercicios de Algoritmos y Programación 
 
 ## Variables, Operadores y Strings
