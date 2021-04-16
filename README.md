@@ -247,7 +247,7 @@ students = ["Emmie Grey",
 
 
 
-b. `Ahora en vez de crear una nueva lista, queremos actualizar la lista existente students con el mismo Output`
+b. Ahora en vez de crear una nueva lista, queremos actualizar la lista existente students con el mismo Output
 
 ---
 
