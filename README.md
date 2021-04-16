@@ -20,7 +20,7 @@ Debes hacer los siguientes calculos:
 - Aumentar volumen_reservorio en un 5% para tener en cuenta las aguas pluviales que fluyen en el embalse en los días posteriores a la tormenta ✍️
 - Disminuir volumen_reservorio en un 2% para tener en cuenta la evaporación ✍️
 - Resta 2.5e5 metros cúbicos de volumen_reservorio para tener en cuenta el agua que se canaliza a regiones áridas. ✍️
-- Imprime el nuevo valor de la variable volumen_reservorio, con el mensaje: `"El volumen del reservorio es {volimen_reservorio}m3"` ✍️
+- Imprime el nuevo valor de la variable volumen_reservorio, con el mensaje: `"El volumen del reservorio es {volumen_reservorio}m3"` ✍️
 
 **Nota**: 
 Aqui usaramos notación científica para definir grandes números. 
