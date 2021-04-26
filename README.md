@@ -20,7 +20,7 @@ En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programa
 ---
 **C1E2**
 
-Crea un repositorio público en Github e inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
+Inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
 
 ```
 name = "Tu nombre aqui (con las comillas)"
@@ -29,10 +29,13 @@ career = "Tu carrera aqui (con las comillas)"
 print(f"Hola Mundo! mi nombre es {name} y tengo {age}
 años, estudio {career} en la UNIMET!")
 ```
+
+Luego en Github crea un repositorio público  y enlaza el repositorio local con el repositorio de Github, por último sube los cambios a Github
+
 ---
 **C1E3**
 
-Crea un repositorio público en Github llamado c0e3 y clónalo vacío en tu carpeta de **programateca**, luego ya en tu computadora y con el uso del command line crea una carpeta por cada materia que estés viendo, ejemplo: algoritmos, física, matemáticas, y dentro de cada carpeta de cada materia tendrás que crear un archivo txt (ejemplo: `touch algoritmos.txt`) con las evaluaciones, fechas y porcentajes de esa materia, Ejemplo:
+Crea un repositorio público en Github llamado c0e3 y clónalo vacío en tu carpeta de **programateca**, luego ya en tu computadora y con el uso del command line ve al directorio de c1e3 que clonaste y crea una carpeta por cada materia que estés viendo, ejemplo: algoritmos, física, matemáticas, y dentro de cada carpeta de cada materia tendrás que crear un archivo txt (ejemplo: `touch algoritmos.txt`) con las evaluaciones, fechas y porcentajes de esa materia, Ejemplo:
 
 algoritmos.txt:
 
