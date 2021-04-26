@@ -4,7 +4,7 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 
 **Author**: Luis Eduardo Bello
 
-# Tabla de contenidos
+## Tabla de contenidos
 1. [Command Line y Git](#command-line-y-git)
 2. [Variables, Operadores y Strings](#variables-operadores-y-strings)
 3. [Listas y Ciclos](#listas-y-ciclos)
