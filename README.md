@@ -6,13 +6,12 @@ Guía de Ejercicios de Algoritmos y Programación
 ---
 **C0E1**
 
-En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programateca**, y ahí crea otro directorio llamado c0e1, en este último directorio crea 2 archivos README.md y main.py, en el README.md deberas replicar el [siguiente PDF](https://drive.google.com/file/d/1oFYEZbAb9n_C4Yi0bir8adBdActJR9Aj/view?usp=drivesdk) ([para eso puede usar este cheat sheet de markdown que te explica como escribir Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)), y en el main.py haz un programa que siga las instrucciones del README.
+En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programateca**, y ahí crea otro directorio llamado c0e1, en este último directorio crea 2 archivos README.md y main.py, en el README.md deberas replicar el [siguiente PDF](https://drive.google.com/file/d/1oFYEZbAb9n_C4Yi0bir8adBdActJR9Aj/view?usp=drivesdk) (para eso puede usar este [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) de markdown que te explica como escribir Markdown), y en el main.py haz un programa que siga las instrucciones del README.
 
 ---
-
 **C0E2**
 
-Crea un repositorio público en Github e inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, escribiendo el siguiente código: 
+Crea un repositorio público en Github e inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
 
 ```
 name = "Tu nombre aqui (con las comillas)"
@@ -21,15 +20,28 @@ career = "Tu carrera aqui (con las comillas)"
 print(f"Hola Mundo! mi nombre es {name} y tengo {age}
 años, estudio {} en la UNIMET!")
 ```
-
 ---
-
 **C0E3**
 
-Clona el siguiente [repositorio](https://google.com/), y sigue cada unas de las instrucciones que aparecen en el README
+Crea un repositorio público en Github llamado c0e3 y clónalo vacío en tu carpeta de **programateca**, luego ya en tu computadora y con el uso del command line crea una carpeta por cada materia que estés viendo, ejemplo: algoritmos, física, matemáticas, y dentro de cada carpeta de cada materia tendrás que crear un archivo txt (ejemplo: `touch algoritmos.txt`) con las evaluaciones, fechas y porcentajes de esa materia, Ejemplo:
+
+algoritmos.txt:
+
+```
+Algoritmos y Programación 
+Quiz -    10%    - Semana 5
+Examen I    - 20%     - Semana 7
+Trabajo I    - 5%    - Semana 7
+Trabajo II    - 5%    - Semana 10
+Examen II    - 30%    - Semana 11
+Proyecto    - 30% - Semana    12
+```
+
+Y así con todas las materias, por cada archivo txt haz un commit a medida que lo vayas creando y súbelo a Github
 
 
 ---
+
 
 ## Variables, Operadores y Strings
 
@@ -58,7 +70,6 @@ Aqui usaramos notación científica para definir grandes números.
 4.445e8 <=> 4.445 * 10 ** 8 <=> 444500000.0
 
 ---
-
 **C2E2.**
 
 Se le proporcionarán datos de ejemplo para un usuario, la hora de su visita y el sitio al que accedió.
@@ -86,8 +97,8 @@ url = "https://petshop.com/pets/reptiles/pythons"
 ## Condicionales
 
 ---
-
 **C3E1**
+
 Realizar un programa donde se reciba un número por teclado e imprima un mensaje diciendo si el número es par o impar.
 
 **Output:**
@@ -107,8 +118,8 @@ El número: **X** es par/impar y positivo/negativo
 ```
 
 --- 
-
 **C3E2**
+
 Una famosa cadena de cines en Venezuela te contrató para hacerles un programa de descuento en las entradas basado en la edad del cliente, para ello tendrás que recibir por teclado la edad y nombre del cliente y verificar los siguientes casos:
 
 - Si su edad es menor o igual a 4 años el precio de su entrada es gratis.
@@ -161,6 +172,7 @@ Si no hay premio, el mensaje debe decir:
 ## Listas y Ciclos
 
 ---
+
 **C4E1**
 
 Use un for loop para tomar la lista que se llama 'oracion' e imprima cada elemento de la lista en su propia línea.
@@ -201,7 +213,6 @@ oracion = ["Estoy","imprimiendo","una","lista","linea","por","linea"]
 ```
 
 ---
-
 **C3E2**
 
 Escribe un for loop que imprima números enteros multiples de 5 menores e iguales a 30.
@@ -233,7 +244,6 @@ Escribe un for loop que imprima números enteros multiples de 5 menores e iguale
 ```
 
 ---
-
 **C4E3**
 
 a. Escribe un For Loop que itere sobre la lista 'estudiantes' y crea una lista 'usernames' para cada nombre. Para crear un username debes:
@@ -280,8 +290,8 @@ students = ["Emmie Grey",
 b. Ahora en vez de crear una nueva lista, queremos actualizar la lista existente students con el mismo Output
 
 ---
-
 **C4E4**
+
 Debe escribir un While Loop que tome los números en una lista dada llamada: `num_list`
 
 Su código debe **sumar** los números impares en la lista, pero solo hasta los primeros 5 números impares.
