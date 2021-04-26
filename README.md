@@ -20,7 +20,7 @@ En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programa
 ---
 **C1E2**
 
-Inicializa un repositorio local en el directorio c1e2, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
+Inicializa un repositorio local en el directorio c1e1 (carpeta del ejercicio anterior), haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
 
 ```
 name = "Tu nombre aqui (con las comillas)"
