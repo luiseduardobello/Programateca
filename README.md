@@ -1,5 +1,8 @@
 # Programateca: AyP 
-Guía de Ejercicios de Algoritmos y Programación 
+
+Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
+
+**Author**: Luis Eduardo Bello
 
 ## Command Line y Git
 
