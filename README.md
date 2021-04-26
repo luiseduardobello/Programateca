@@ -18,7 +18,7 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programateca**, y ahí crea otro directorio llamado c1e1, en este último directorio crea 2 archivos README.md y main.py, en el README.md deberas replicar el [siguiente PDF](https://drive.google.com/file/d/1oFYEZbAb9n_C4Yi0bir8adBdActJR9Aj/view?usp=drivesdk) (para eso puede usar este [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) de markdown que te explica como escribir Markdown), y en el main.py haz un programa que siga las instrucciones del README.
 
 ---
-**c1E2**
+**C1E2**
 
 Crea un repositorio público en Github e inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
 
