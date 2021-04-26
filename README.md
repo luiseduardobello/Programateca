@@ -35,7 +35,7 @@ Luego en Github crea un repositorio público  y enlaza el repositorio local con 
 ---
 **C1E3**
 
-Crea un repositorio público en Github llamado c0e3 y clónalo vacío en tu carpeta de **programateca**, luego ya en tu computadora y con el uso del command line ve al directorio de c1e3 que clonaste y crea una carpeta por cada materia que estés viendo, ejemplo: algoritmos, física, matemáticas, y dentro de cada carpeta de cada materia tendrás que crear un archivo txt (ejemplo: `touch algoritmos.txt`) con las evaluaciones, fechas y porcentajes de esa materia, Ejemplo:
+Crea un repositorio público en Github llamado c1e3 y clónalo vacío en tu carpeta de **programateca**, luego ya en tu computadora y con el uso del command line ve al directorio de c1e3 que clonaste y crea una carpeta por cada materia que estés viendo, ejemplo: algoritmos, física, matemáticas, y dentro de cada carpeta de cada materia tendrás que crear un archivo txt (ejemplo: `touch algoritmos.txt`) con las evaluaciones, fechas y porcentajes de esa materia, Ejemplo:
 
 algoritmos.txt:
 
