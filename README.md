@@ -1,6 +1,36 @@
 # Programateca: AyP 
 Guía de Ejercicios de Algoritmos y Programación 
 
+## Command Line y Git
+
+---
+**C0E1**
+
+En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programateca**, y ahí crea otro directorio llamado c0e1, en este último directorio crea 2 archivos README.md y main.py, en el README.md deberas replicar el [siguiente PDF](https://drive.google.com/file/d/1oFYEZbAb9n_C4Yi0bir8adBdActJR9Aj/view?usp=drivesdk) ([para eso puede usar este cheat sheet de markdown que te explica como escribir Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)), y en el main.py haz un programa que siga las instrucciones del README.
+
+---
+
+**C0E2**
+
+Crea un repositorio público en Github e inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, escribiendo el siguiente código: 
+
+```
+name = "Tu nombre aqui (con las comillas)"
+age = "Tu edad aqui (sin las comillas)"
+career = "Tu carrera aqui (con las comillas)"
+print(f"Hola Mundo! mi nombre es {name} y tengo {age}
+años, estudio {} en la UNIMET!")
+```
+
+---
+
+**C0E3**
+
+Clona el siguiente [repositorio](https://google.com/), y sigue cada unas de las instrucciones que aparecen en el README
+
+
+---
+
 ## Variables, Operadores y Strings
 
 ---
