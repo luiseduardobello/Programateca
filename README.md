@@ -13,12 +13,12 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 ## Command Line y Git
 
 ---
-**C0E1**
+**C1E1**
 
-En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programateca**, y ahí crea otro directorio llamado c0e1, en este último directorio crea 2 archivos README.md y main.py, en el README.md deberas replicar el [siguiente PDF](https://drive.google.com/file/d/1oFYEZbAb9n_C4Yi0bir8adBdActJR9Aj/view?usp=drivesdk) (para eso puede usar este [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) de markdown que te explica como escribir Markdown), y en el main.py haz un programa que siga las instrucciones del README.
+En tu carpeta de elección crea un nuevo directorio (carpeta) llamada **programateca**, y ahí crea otro directorio llamado c1e1, en este último directorio crea 2 archivos README.md y main.py, en el README.md deberas replicar el [siguiente PDF](https://drive.google.com/file/d/1oFYEZbAb9n_C4Yi0bir8adBdActJR9Aj/view?usp=drivesdk) (para eso puede usar este [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) de markdown que te explica como escribir Markdown), y en el main.py haz un programa que siga las instrucciones del README.
 
 ---
-**C0E2**
+**c1E2**
 
 Crea un repositorio público en Github e inicializa un repositorio local en el directorio c0e1, haz un commit y push con los cambios hechos en el ejercicio anterior y luego modifica en main.py, sustituyendoilo por el siguiente código: 
 
@@ -30,7 +30,7 @@ print(f"Hola Mundo! mi nombre es {name} y tengo {age}
 años, estudio {} en la UNIMET!")
 ```
 ---
-**C0E3**
+**C1E3**
 
 Crea un repositorio público en Github llamado c0e3 y clónalo vacío en tu carpeta de **programateca**, luego ya en tu computadora y con el uso del command line crea una carpeta por cada materia que estés viendo, ejemplo: algoritmos, física, matemáticas, y dentro de cada carpeta de cada materia tendrás que crear un archivo txt (ejemplo: `touch algoritmos.txt`) con las evaluaciones, fechas y porcentajes de esa materia, Ejemplo:
 
