@@ -312,17 +312,18 @@ Su código debe **sumar** los números impares en la lista, pero solo hasta los 
 - Sumar los primeros 5 números impares en la lista.
 - Si hay mas de 5 números impares, detenerse de sumar en el 5to número y mostrar mensaje con la cantidad de números impares y la suma total.
 
-**Output**:
+**Starter Code**:
+```
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69 , 113, 166]
+```
 
+
+**Output**:
 ```
 "La cantidad de números impares es: {contador_impares}"
 "La suma total de los números impares es: {suma_impares}"
 ```
-**Starter Code**:
-```
-num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69 , 113, 166]
 
-```
 ---
 **C4E5**
 
@@ -416,12 +417,33 @@ Si quieres saber más sobre **slice** te dejo este link de referencia:
 **C6E1**
 
 
-a. Use **List comprehension** para crear una nueva lista primeros_nombres que contenga solo los primeros nombres en minúsculas.
+a. Use **List comprehension** para crear una nueva lista primeros_nombres que contenga solo los primeros nombres en minúsculas de la lista estudiantes.
+
+**Starter Code**
+```
+estudiantes = ["Emmie Grey",
+"Andre Hills",
+"Gurpreet Atherton",
+"Johan Stewart",
+"Joseff Hurst",
+"Margot Conrad",
+"Matteo Whitaker",
+"Mekhi Hussain",
+"Sherry Macdonald",
+"Mathew Cano",
+"Cara O'Moore",
+"Kush Gonzalez",
+"Soren Clark",
+"Inaayah Broadhurst",
+"Ruth Lawrence",
+"Nafisa Nairn",
+"Zachariah Velasquez"]
+```
+
 
 **Output esperado:**
-
 ```
-['maría', 'isabel', 'andrés', 'simón', 'humberto', 'manuel', 'jean', 'manuel', 'alberto', 'tony', 'alejandro', 'alexandre', 'jorge', 'jessica', 'javier', 'david', 'héctor', 'manuel', 'javier', 'julieta', 'rocco\tmadonna', 'gabriel', 'rodolfo', 'patricia', 'manuel', 'jesus', 'dayana', 'víctor']
+['emmie', 'andre', 'gurpreet', 'johan', 'joseff', 'margot', 'matteo', 'mekhi', 'sherry', 'mathew', 'cara', 'kush', 'soren', 'inaayah', 'ruth', 'nafisa', 'zachariah']
 ```
 
 
