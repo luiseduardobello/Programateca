@@ -9,7 +9,7 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 2. [Variables, Operadores y Strings](#variables-operadores-y-strings)
 3. [Listas y Ciclos](#listas-y-ciclos)
 4. [List comprehension, set & tuplas](#list-comprehension-set-y-tuplas)
-5. [Diccionarios](#tabla-de-contenidos)
+5. [Diccionarios](#diccionarios)
 6. [Funciones](#funciones)
 7. [Comming soon...](#tabla-de-contenidos)
 
