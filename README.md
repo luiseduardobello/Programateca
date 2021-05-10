@@ -9,6 +9,7 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 2. [Variables, Operadores y Strings](#variables-operadores-y-strings)
 3. [Listas y Ciclos](#listas-y-ciclos)
 4. [List comprehension, set & tuplas](#list-comprehension-set-y-tuplas)
+5. [Funciones](#)
 
 
 ## Command Line y Git
@@ -295,9 +296,7 @@ students = ["Emmie Grey",
 **Pista:** Puedes remplazar los espacios con el método .replace(), para saber como funciona chequea esta documentación:
 
 
-
-`https://www.w3schools.com/python/ref_string_replace.asp`
-
+[https://www.w3schools.com/python/ref_string_replace.asp](https://www.w3schools.com/python/ref_string_replace.asp)
 
 
 b. Ahora en vez de crear una nueva lista, queremos actualizar la lista existente students con el mismo Output
@@ -405,9 +404,9 @@ print(nombre[0:4]) # output= Juan
 
 Si quieres saber más sobre **slice** te dejo este link de referencia:
 
-```
-`https://www.w3schools.com/python/showpython.asp?filename=demo_string2`
-```
+
+[https://www.w3schools.com/python/showpython.asp?filename=demo_string2](https://www.w3schools.com/python/showpython.asp?filename=demo_string2)
+
 
 ---
 
@@ -489,6 +488,36 @@ s = 'The big dwarf only jumps'
 s = 'Estudiante'
 #Output: No es un heterograma ya que [e] aparece mas de 1 vez
 
+```
+
+---
+
+## Funciones
+
+---
+**C7E1**
+
+Escriba una función llamada densidad_de_poblacion que tome dos argumentos: poblacion y area, y devuelva una densidad de población. calculada a partir de esos valores.
+
+---
+**C7E2**
+
+
+Escriba una función llamada `leer_tiempo()`
+
+ La función debe tomar **un** argumento, un número entero y **devolver** un **string** que indique cuántas semanas y días son. 
+
+Por ejemplo, llamando a la función e imprimiendo el resultado de esta manera:
+
+**INPUT**
+```
+print(leer_tiempo(10))
+```
+
+Debe dar como **Output:**
+
+```
+1 semana(s) y 3 dias(s).
 ```
 
 ---
