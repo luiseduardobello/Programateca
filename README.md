@@ -59,7 +59,7 @@ Y así con todas las materias, por cada archivo txt haz un commit a medida que l
 ## Variables, Operadores y Strings
 
 ---
-**C2E1.**
+**C2E1**
 
 Te han contrado en el centro meteorologico de la **NASA**, para que hagas ciertos calculos tomando en cuenta lo siguiente:  
 
@@ -83,7 +83,7 @@ Aqui usaramos notación científica para definir grandes números.
 4.445e8 <=> 4.445 * 10 ** 8 <=> 444500000.0
 
 ---
-**C2E2.**
+**C2E2**
 
 Se le proporcionarán datos de ejemplo para un usuario, la hora de su visita y el sitio al que accedió.
 
