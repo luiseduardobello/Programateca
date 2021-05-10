@@ -8,6 +8,7 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 1. [Command Line y Git](#command-line-y-git)
 2. [Variables, Operadores y Strings](#variables-operadores-y-strings)
 3. [Listas y Ciclos](#listas-y-ciclos)
+4. [List comprehension, set & tuplas](#list-comprehension-set-y-tuplas)
 
 
 ## Command Line y Git
@@ -189,7 +190,7 @@ Si no hay premio, el mensaje debe decir:
 
 Use un for loop para tomar la lista que se llama 'oracion' e imprima cada elemento de la lista en su propia línea.
 
-** Output: **
+**Output:**
 
 ```
 Estoy
@@ -229,7 +230,7 @@ oracion = ["Estoy","imprimiendo","una","lista","linea","por","linea"]
 
 Escribe un for loop que imprima números enteros multiples de 5 menores e iguales a 30.
 
-** Output: **
+**Output:**
 
 ```
 5
@@ -322,8 +323,151 @@ Su código debe **sumar** los números impares en la lista, pero solo hasta los 
 num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69 , 113, 166]
 
 ```
+---
+**C4E5**
+
+
+Los números primos son números enteros que pueden ser divisibles entre: 1 y si mismo. Los primeros números primos son 2, 3, 5, 7.
+
+Por ejemplo, 6 es divisible por cuatro números : 1, 2, 3, 6.
+
+1 X 6 = 6
+
+2 X 3 = 6
+
+Entonces sabemos que 6 **no** es un número primo.
+
+Escribe un programa para verificar si los números provistos en la lista chequear_primos son números primos.
+
+**Output:**
+
+Si los números son primos, el código debe imprimir:
+
+```
+{número} es un número primo
+```
+
+Si el número **NO** es un número primo, debe imprimir:
+
+```
+`{número} no es un número primo, porque {numero} es divisible entre {divisible}`
+```
+
+---
+**C4E6**
+
+Escriba un programa que itere los enteros del 0 al 50. 
+
+- Para múltiplos de tres imprima "**Fizz**" en lugar del número
+- Para los múltiplos de cinco imprima "**Buzz**".
+- Para números que son múltiplos de tres y cinco, imprime "**FizzBuzz**". 
+- Para el resto de los números imprima el número.
+
+---
+**C4E7**
+
+
+Una famosa cadena de noticias te contrato para que diseñaras un programa el cual muestre los titulares en Twitter, sin embargo esta plataforma limita los tweets a 140 caracteres.
+
+Escribe un **Loop** con **Break** en donde recorras la lista `titulares` dada, y en cada iteración inserta los titulares en una variable `tweet`. 
+Tienes que tomar en cuenta lo siguiente:
+
+- Al concatenar los strings a la variable `tweet` ten en cuenta el espacio que debes dejar entre titulares y separarlos por coma ','.
+- Si es necesario tienes que truncar los titulares para que queden exactamente 140 caracteres en la variable `tweet`
+
+**Input**
+```
+# Variables a usar.
+titulares = ["Oso se come a hombre en el Avila",
+             "Anuncian nuevas leyes para la nación",
+             "Si lees esto, estudia los resumenes de clase para el Quiz ;)",
+             "Gato rescata a bombero atrapado en un árbol",
+             "La UNIMET tiene nueva cancha de fútbol",
+             "Los estudiantes de algoritmos y programción son los mejores!"]
+```
+
+**Output:**
+
+```
+`Oso se come a hombre en el Avila, Anuncian nuevas leyes para la nación, Si lees esto, estudia los resumenes de clase para elQuiz ;), Gato r`
+```
+
+**Hints:**
+
+Al igual que las listas los String se pueden usar **`slice()`**, donde cada carácter se puede asimilar como una posición en una lista/vector.
+
+nombre = "Juan Pablo"
+
+print(nombre[0] ) # output= J
+
+print(nombre[0:4]) # output= Juan
+
+Si quieres saber más sobre **slice** te dejo este link de referencia:
+
+```
+`https://www.w3schools.com/python/showpython.asp?filename=demo_string2`
+```
 
 ---
 
+## List comprehension, set y tuplas
 
+---
+**C6E1**
+
+
+a. Use **List comprehension** para crear una nueva lista primeros_nombres que contenga solo los primeros nombres en minúsculas.
+
+**Output esperado:**
+
+```
+['maría', 'isabel', 'andrés', 'simón', 'humberto', 'manuel', 'jean', 'manuel', 'alberto', 'tony', 'alejandro', 'alexandre', 'jorge', 'jessica', 'javier', 'david', 'héctor', 'manuel', 'javier', 'julieta', 'rocco\tmadonna', 'gabriel', 'rodolfo', 'patricia', 'manuel', 'jesus', 'dayana', 'víctor']
+```
+
+
+b. Use un **List comprehension** para crear una lista multiplos_3 que contenga los primeros 20 múltiplos de 3.
+
+**Output**:
+
+```
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60]
+```
+
+
+---
+**C6E2**
+
+a. Usa zip para escribir un bucle **for** que cree una lista que especifique el label y las coordenadas de cada punto. Cada elemento debe formatearse como:
+
+**Output**
+
+```
+ {label}: x, y, z.
+```
+
+ Por ejemplo:
+
+```
+ F: 23, 677, 4.
+```
+
+b.Usa enumerate para modificar la lista de casting para que cada elemento contenga el nombre seguido de la altura correspondiente del personaje. 
+
+Por ejemplo, el primer elemento del elenco debería cambiar de "Barney Stinson" a "Barney Stinson 72".
+
+---
+**C6E3**
+
+Dada un String de caracteres en minúscula. La tarea es verificar si el string dado es un heterograma o no. Un heterograma es una palabra, frase u oración en la que ninguna letra del alfabeto aparece más de una vez.
+
+```
+s = 'The big dwarf only jumps'
+#Output: Es un heterograma ya que cada caracter aparece 1 vez
+
+s = 'Estudiante'
+#Output: No es un heterograma ya que [e] aparece mas de 1 vez
+
+```
+
+---
 
