@@ -9,7 +9,8 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 2. [Variables, Operadores y Strings](#variables-operadores-y-strings)
 3. [Listas y Ciclos](#listas-y-ciclos)
 4. [List comprehension, set & tuplas](#list-comprehension-set-y-tuplas)
-5. [Funciones](#)
+5. [Funciones](#funciones)
+6. [Comming soon...](#tabla-de-contenidos)
 
 
 ## Command Line y Git
@@ -509,12 +510,12 @@ Escriba una función llamada `leer_tiempo()`
 
 Por ejemplo, llamando a la función e imprimiendo el resultado de esta manera:
 
-**INPUT**
+**INPUT:**
 ```
 print(leer_tiempo(10))
 ```
 
-Debe dar como **Output:**
+**Output:**
 
 ```
 1 semana(s) y 3 dias(s).
