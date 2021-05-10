@@ -9,8 +9,9 @@ Guía de Ejercicios de la materia Algoritmos y Programación UNIMET
 2. [Variables, Operadores y Strings](#variables-operadores-y-strings)
 3. [Listas y Ciclos](#listas-y-ciclos)
 4. [List comprehension, set & tuplas](#list-comprehension-set-y-tuplas)
-5. [Funciones](#funciones)
-6. [Comming soon...](#tabla-de-contenidos)
+5. [Diccionarios](#tabla-de-contenidos)
+6. [Funciones](#funciones)
+7. [Comming soon...](#tabla-de-contenidos)
 
 
 ## Command Line y Git
@@ -493,15 +494,95 @@ s = 'Estudiante'
 
 ---
 
-## Funciones
+## Diccionarios
 
 ---
 **C7E1**
 
-Escriba una función llamada densidad_de_poblacion que tome dos argumentos: poblacion y area, y devuelva una densidad de población. calculada a partir de esos valores.
+
+Cuenta la cantidad de frutas en su cesta. Para hacer esto, tiene el  diccionario y la lista de frutas. Use el diccionario y la lista para contar el número total de frutas y los otros artículos que no son frutas en su cesta.
+
+**Starter Code:**
+```
+catidad_frutas, cantidad_no_frutas = 0, 0
+cesta = {'manzanas': 4, 'naranjas': 19, 'hamburgesas': 3, 'sandwiches': 8}
+frutas = ['manzanas', 'naranjas', 'peras', 'parchitas', 'uvas', 'cambures']
+```
+
+**Output:**
+```
+Hay {} frutas en la cesta. y {} objetos que no son frutas.
+```
 
 ---
 **C7E2**
+
+Podemos crear un diccionario, contador, que realiza un seguimiento del recuento total de cada palabra en la lista quote.
+
+**Starter Code:**
+```
+contador = {}
+quote =  ['Tienes', 'que', 'bailar', 'como', 'si', 'no', 'hubiera', 'nadie', 'mirando', 'Ama', 'como', 'si', 'nunca', 'te', 'lastimaran', 'Canta', 'como', 'si', 'no', 'hubiera', 'nadie', 'escuchando', 'Y', 'vive', 'como', 'si', 'fuera', 'el', 'cielo', 'en', 'la', 'tierra.']
+```
+
+**Output:**
+
+```
+**`{'Tienes': 1, 'que': 1, 'bailar': 1, 'como': 4, 'si': 4, 'no': 2, 'hubiera': 2, 'nadie': 2, 'mirando': 1, 'Ama': 1, 'nunca': 1, 'te': 1, 'lastimaran': 1, 'Canta': 1, 'escuchando': 1,'Y': 1, 'vive': 1, 'fuera': 1, 'el': 1, 'cielo': 1, 'en': 1,'la': 1, 'tierra.': 1}`**
+```
+
+---
+**C7E3**
+
+Se le ha contratado en la compañía `super-security` para que cree un sistema de autenticación de usuarios. Para esto deberá crear una función el cual acepte 3 parámetros, el **usuario, clave (**estos datos debera pedirlos por teclado**)** y  **un diccionario llamado **db** en donde se tiene la información de la compañía de quienes tienen acceso al sistema, esta función deberá decir si el usuario tiene acceso o no.**
+
+**Starter Code:**
+```
+# Escribe tus funciones aqui.
+
+
+
+# Funcion principal.
+def main():
+	# Esta es la base de datos:
+	db = {
+			"benjamisharifker2001" : "1234",
+			"kevinelpreparador" : "estudienp@lQuiz",
+			"elsaman" : "unimet123"
+	}
+
+	# Escribe tu llamado a funcion aqui
+	
+# Llamado a función principal.
+main()
+```
+
+**Outputs Esperados:**
+
+Si es autenticado correctamente:
+
+```
+El usuario {nombre_de_usuario} ha sido autenticado!
+```
+
+Si no:
+
+```
+Usuario o clave incorrecta
+```
+
+---
+
+
+## Funciones
+
+---
+**C8E1**
+
+Escriba una función llamada densidad_de_poblacion que tome dos argumentos: poblacion y area, y devuelva una densidad de población. calculada a partir de esos valores.
+
+---
+**C8E2**
 
 
 Escriba una función llamada `leer_tiempo()`
