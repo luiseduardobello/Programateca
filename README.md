@@ -462,6 +462,23 @@ b. Use un **List comprehension** para crear una lista multiplos_3 que contenga l
 
 a. Usa zip para escribir un bucle **for** que cree una lista que especifique el label y las coordenadas de cada punto. Cada elemento debe formatearse como:
 
+**Output**
+
+```
+ {label}: x, y, z.
+```
+
+ Por ejemplo:
+
+```
+ F: 23, 677, 4.
+```
+
+b.Usa enumerate para modificar la lista de casting para que cada elemento contenga el nombre seguido de la altura correspondiente del personaje. 
+
+Por ejemplo, el primer elemento del elenco debería cambiar de "Barney Stinson" a "Barney Stinson 72".
+
+
 **Starter Code**
 ```
 #a
@@ -485,21 +502,6 @@ altura = [72, 68, 72, 66, 76]
 
 print(cast)
 ```
-**Output**
-
-```
- {label}: x, y, z.
-```
-
- Por ejemplo:
-
-```
- F: 23, 677, 4.
-```
-
-b.Usa enumerate para modificar la lista de casting para que cada elemento contenga el nombre seguido de la altura correspondiente del personaje. 
-
-Por ejemplo, el primer elemento del elenco debería cambiar de "Barney Stinson" a "Barney Stinson 72".
 
 ---
 **C6E3**
