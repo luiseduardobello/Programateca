@@ -462,6 +462,29 @@ b. Use un **List comprehension** para crear una lista multiplos_3 que contenga l
 
 a. Usa zip para escribir un bucle **for** que cree una lista que especifique el label y las coordenadas de cada punto. Cada elemento debe formatearse como:
 
+**Starter Code**
+```
+#2.1
+x_coord = [23, 53, 2, -12, 95, 103, 14, -5]
+y_coord = [677, 233, 405, 433, 905, 376, 432, 445]
+z_coord = [4, 16, -6, -42, 3, -6, 23, -1]
+label = ["F", "J", "A", "Q", "Y", "B", "W", "X"]
+
+puntos = []
+
+# Escribe tu código aqui.
+
+
+
+#2.2
+casting = ["Leonardo DiCaprio", "Tom Hanks", "Ophra", "Lily Aldrin", "Miley Cyrus"]
+altura = [72, 68, 72, 66, 76]
+
+# Escribe tu código aqui.
+
+
+print(cast)
+```
 **Output**
 
 ```
